@@ -18,7 +18,7 @@ func CheckPasswordHash(password, hash string) bool {
 
 func main() {
 	password := "secret"
-	hash, _ := HashPassword(password) //ignore error for the sake of simplicity
+	hash, _ := HashPassword(password) //ignore error for the sake of simplicity ok
 
 	fmt.Println("Password:", password)
 	fmt.Println("Hash:    ", hash)
